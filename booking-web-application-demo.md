@@ -532,6 +532,8 @@ app.listen(port, () => {
 
 ![รูปผลลัพธ์การ Get ข้อมูล](images path/image.png)
 
+<img width="643" alt="image" src="https://github.com/user-attachments/assets/69943005-7b32-4d57-9cf0-243dc590d2ea" />
+
 ### กรณีผลลัพธ์แจ้ง "error":"Token ไม่ถูกต้องหรือหมดอายุ" ให้ทำการ Login ใหม่ แล้วคัดลอก Token ที่ได้เพื่อเปลี่ยนค่าใน variable token
 
 7. สร้าง request เพื่อ Get Bookings by ID ระบุ Url คือ GET: {{baseUrl}}/api/bookings/1
