@@ -1045,6 +1045,8 @@ npm run dev
 1.1 กดปุ่ม Ctrl ค้างไว้ แล้วคลิกลิ้ง ที่ http://localhost:เลข Port ที่รัน เพื่อเปิดหน้าเว็บการทำงาน 
 #### บันทึกผลการรัน
 ![รูปผลการรันหน้า front-end](./image-path/image.png)
+<img width="950" alt="image" src="https://github.com/user-attachments/assets/67881384-6e56-4af8-8d8e-5c3abc6eeab1" />
+
 1.2 กด Ctrl + c เพื่อยกเลิกการทำงาน
 
 2. ติดตั้ง dependencies ที่จำเป็น:
@@ -1055,7 +1057,7 @@ npm install -D tailwindcss@3 postcss autoprefixer
 ```
 #### axios คืออะไร ?
 ```html
-  axios คืออะไร เขียนคำตอบที่นี่
+  axios คือ ไลบรารีของ JavaScript สำหรับทำ HTTP Request ช่วยให้ดึงหรือส่งข้อมูลไป API ง่าย
 ```
 3. ตั้งค่า Tailwind CSS:
 
@@ -1157,10 +1159,13 @@ export default App;
 ```
 2) ทดสอบรัน โดยพิมพ์คำสั่ง npm run dev แล้วบันทึกหน้าผลการรัน
 #### บันทึกรูปผลการรัน
-![ผลการรัน](./image path/image.png)
+![ผลการรัน]<img width="484" alt="image" src="https://github.com/user-attachments/assets/f774ef66-e816-4d64-9a1b-a6acb2be1faf" />
+
 
 3) กดปุ่ม Ctrl ค้างไว้ แล้วคลิกลิ้ง ที่ http://localhost:เลข Port ที่รัน เพื่อเปิดหน้าเว็บการทำงาน แล้วตรวจสอบ error โดยไม่ต้องหยุดการทำงานของ Application
 #### บันทึกผลการรัน
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/7484303e-0a24-43c9-90ff-0af2f55500df" />
+
 ```html
 บันทึกสาเหตุที่ทำให้เกิด error ที่นี่
 ```
@@ -1447,6 +1452,8 @@ export default BookingForm;
 3) ทดสอบป้อนข้อมูลการจอง โดยระบุชื่อผู้จองเป็นชื่อนักศึกษา และบันทึกผลการทดลองที่มีหน้าสรุปการจอง
 #### บันทึกผลการทดลอง
 ![รูปหน้าจองห้องพัก ที่แสดงข้อมูลสรุปการจอง](images-path/image.png)
+<img width="397" alt="image" src="https://github.com/user-attachments/assets/e6ac1e9e-410c-4eea-8a4d-1050768a1ac2" />
+
 
 4) ใช้ Postman  ตรวจสอบว่ามีข้อมูลการจองเพิ่มไปหรือไม่ (หาก token หมดอายุ ต้องทำการ Login แล้วเปลี่ยนค่า token ใหม่)
 
